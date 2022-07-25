@@ -22,7 +22,6 @@
     <img src="https://img.shields.io/badge/vueRouter-3.5.3-green">
     <img src="https://img.shields.io/badge/chart.js-2.9.4-green">
     <img src="https://img.shields.io/badge/axios-0.26.1-green">
-    <img src="https://img.shields.io/badge/axios-0.26.1-green">
 
        
   </div>
