@@ -21,9 +21,16 @@
     <img src="https://img.shields.io/badge/vuePropertyDecorator-9.1.2-blue">
     <img src="https://img.shields.io/badge/vueRouter-3.5.3-green">
     <img src="https://img.shields.io/badge/chart.js-2.9.4-green">
-    <img src="https://img.shields.io/badge/axios-0.26.1-green">
+    <img src="https://img.shields.io/badge/axios-0.26.1-green">           
+  </div>
 
-       
+  <br>
+
+  <div align=start>
+    <img src="https://img.shields.io/badge/vue-2.6.14-green"> - Vuetify 2.6.0의 원활한 사용을 위해 vue2 버전을 택하였습니다.
+    
+    
+
   </div>
 </div>
 
