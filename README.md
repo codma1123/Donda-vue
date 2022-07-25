@@ -26,8 +26,11 @@
 
   <br>
 
-  <div align=start>
-    <img src="https://img.shields.io/badge/vue-2.6.14-green"> - Vuetify 2.6.0의 원활한 사용을 위해 vue2 버전을 택하였습니다.
+  <div align=center>
+    <img src="https://img.shields.io/badge/vue-2.6.14-green">
+    <h5>
+     <strong>Vuetify 2.6.0</strong>의 원활한 사용을 위해 vue2 버전을 채택하였습니다.
+    </h5>
     
     
 
