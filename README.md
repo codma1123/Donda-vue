@@ -99,7 +99,7 @@
     <img src="https://img.shields.io/badge/vueRouter-3.5.3-green">
   </div>
 
-  **Vue.js** 의 라우터로써, SPA를 구축할 수 있게 합니다.
+  **Vue.js** 의 라우터입니다. SPA의 구현, 동적 라우팅, 사용자 정의 스크롤 등의 기능을 사용하기 위해 채택하였습니다.
 
   <br>
 
@@ -107,7 +107,7 @@
     <img src="https://img.shields.io/badge/chart.js-2.9.4-green">
   </div>
 
-  차트를 쉽게 그릴 수 있는 **Javascript, Typescript** 라이브러리 입니다. 
+  차트를 쉽게 그릴 수 있는 **Javascript, Typescript** 라이브러리 입니다. 주가와 제무재표를 다양한 방식으로 시각화 하기 위해 채택하였습니다. **chart.js**는 특히 plugin 커스텀 기능이 강력하여 다양한 차트 시각 옵션을 설정할 수 있습니다. 자세한 내용은 하단의 차트 항목에서 살펴보시기 바랍니다.
 
   <br>
 
