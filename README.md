@@ -5,14 +5,30 @@
 
 ## 개발 환경
 
+<div>
+  <div align=center>
+    <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white">  
+    <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"> 
+    <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
+    <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+    <img src="https://img.shields.io/badge/vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=white">       
+  </div>
+  <div align=center>    
+    <img src="https://img.shields.io/badge/vue-2.6.14-green">
+    <img src="https://img.shields.io/badge/vuetify-2.6.0-green">
+    <img src="https://img.shields.io/badge/vuex-3.6.2-green">
+    <img src="https://img.shields.io/badge/vuexClass-0.3.2-blue">
+    <img src="https://img.shields.io/badge/vuePropertyDecorator-9.1.2-blue">
+    <img src="https://img.shields.io/badge/vueRouter-3.5.3-green">
+    <img src="https://img.shields.io/badge/chart.js-2.9.4-green">
+    <img src="https://img.shields.io/badge/axios-0.26.1-green">
+    <img src="https://img.shields.io/badge/axios-0.26.1-green">
 
-<div align=center>
-  <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white">  
-  <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"> 
-  <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
-  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
-  <img src="https://img.shields.io/badge/vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=white">       
+       
+  </div>
 </div>
+
+
 
 
 <br><br/>
