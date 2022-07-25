@@ -48,7 +48,9 @@
     <img src="https://img.shields.io/badge/typescript-3178C6?&logo=typescript&logoColor=white">    
   </div>
 
-  복잡한 주가 데이터를 원활히 다루고, 백엔드와의 원활한 소통을 위해, 타입을 정의하고 사용하기 용이한 **Typescript**를 채택하였습니다.   
+  <center>
+    복잡한 주가 데이터를 원활히 다루고, 백엔드와의 원활한 소통을 위해, 타입을 정의하고 사용하기 용이한 **Typescript**를 채택하였습니다.   
+  </center>
 
   <br>
 
@@ -57,7 +59,9 @@
     <img src="https://img.shields.io/badge/vuetify-2.6.0-green">
   </div>
 
-  **Vue.js** 의 **CSS** 프레임워크 입니다. **CSS** 요소를 간편하고 빠르게 만들기 위해 채택하였습니다.
+  <center>
+    **Vue.js** 의 **CSS** 프레임워크 입니다. **CSS** 요소를 간편하고 빠르게 만들기 위해 채택하였습니다.
+  </center>
   
   * **Vuetify**가 곧 3.0 버전 정식 릴리즈가 될 예정입니다. 릴리즈 내역에는 **Vue3.0** 이상 지원 내용이 포함됩니다.
   자세한 내용은 [해당 링크](https://vuetifyjs.com/en/introduction/roadmap/#in-development)를 참조하세요.
@@ -68,7 +72,10 @@
     <img src="https://img.shields.io/badge/vuex-3.6.2-green">
   </div>
   
-  **Vue.js** 의 ***상태 관리 도구*** 라이브러리 입니다.
+  <center>
+    **Vue.js** 의 ***상태 관리 도구*** 라이브러리 입니다.
+  </center>
+
   * **vuex**가 곧 LTS 버전으로 들어갑니다. 따라서 **Vue.js** 에서 공식적으로 권하는 상태 관리 도구는 **vuex** 에서 *Mutation*을 제거하고, 새로운 기능을 추가한 [Pinia](https://pinia.vuejs.org/introduction.html#why-should-i-use-pinia)입니다. 
   
    > ***상태 관리 도구*** : 컴포넌트 간의 데이터 전달이 아닌, 중앙 데이터 저장소(store) 를 통해 데이터를 관리하는 도구를 의미합니다. </br>
@@ -80,7 +87,9 @@
     <img src="https://img.shields.io/badge/vuexClass-0.3.2-blue">
   </div>
   
-  **Vue2** 버전에서 **Typescript** 를 사용하여 클래스형 컴포넌트를 작성할 수 있도록 지원하는 라이브러리 입니다.
+  <center>
+    **Vue2** 버전에서 **Typescript** 를 사용하여 클래스형 컴포넌트를 작성할 수 있도록 지원하는 라이브러리 입니다.
+  </center>
 
   <br>
 
@@ -88,7 +97,9 @@
     <img src="https://img.shields.io/badge/vuePropertyDecorator-9.1.2-blue">
   </div>
 
-  **Vue2** 버전에서 **Typescript** 를 사용하여 데코레이터를 사용한 클래스형 컴포넌트를 작성할 수 있도록 지원하는 라이브러리 입니다.
+  <center>
+    **Vue2** 버전에서 **Typescript** 를 사용하여 데코레이터를 사용한 클래스형 컴포넌트를 작성할 수 있도록 지원하는 라이브러리 입니다.
+  </center>
 
   <br>
 
@@ -96,7 +107,9 @@
     <img src="https://img.shields.io/badge/vueRouter-3.5.3-green">
   </div>
 
-  **Vue.js** 의 라우터로써, SPA를 구축할 수 있게 합니다.
+  <center>
+    **Vue.js** 의 라우터로써, SPA를 구축할 수 있게 합니다.
+  </center>
 
   <br>
 
@@ -104,7 +117,9 @@
     <img src="https://img.shields.io/badge/chart.js-2.9.4-green">
   </div>
 
-  차트를 쉽게 그릴 수 있는 **Javascript, Typescript** 라이브러리 입니다. 
+  <center>
+    차트를 쉽게 그릴 수 있는 **Javascript, Typescript** 라이브러리 입니다. 
+  </center>
 
   <br>
 
@@ -112,7 +127,9 @@
     <img src="https://img.shields.io/badge/axios-0.26.1-green">           
   </div>
   
-  백엔드 서버와의 통신을 위한 HTTP 비동기 통신 라이브러리입니다.
+  <center>
+    백엔드 서버와의 통신을 위한 HTTP 비동기 통신 라이브러리입니다.
+  </center>
 
   
   
