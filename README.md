@@ -35,9 +35,10 @@
     <img src="https://img.shields.io/badge/vue-2.6.14-green" />
   </div>
 
-  프론트엔드 프레임워크 입니다. **Vuetify 2.6.0** 의 원활한 사용을 위해 Vue 2.6.0 버전을 채택하였습니다. 
-  <u> **Vuetify**가 곧 3.0 버전 정식 릴리즈가 될 예정입니다. 릴리즈 내역에는 **Vue3.0** 이상 지원 내용이 포함되므로, **Vue 3.0** 으로 마이그레이션을 고려중입니다 다음 링크를 참조하세요.</u>
-  > https://vuetifyjs.com/en/introduction/roadmap/#in-development
+  프론트엔드 프레임워크 입니다. **Vuetify 2.6.0** 의 원활한 사용을 위해 Vue 2.6.0 버전을 채택하였습니다.
+
+  * **Vuetify**가 곧 3.0 버전 정식 릴리즈가 될 예정입니다. 릴리즈 내역에는 **Vue3.0** 이상 지원 내용이 포함되므로, **Vue 3.0** 으로 마이그레이션을 고려중입니다 다음 링크를 참조하세요.</u>
+    > https://vuetifyjs.com/en/introduction/roadmap/#in-development
 
   <br>
 
