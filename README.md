@@ -1,6 +1,10 @@
 # 🔁 돈다
 
+> 재무제표 기반 주식가격 평가 서비스 프로젝트 **'돈다'** 의 웹 뷰 레포지토리 입니다.
+
+
 ## 개발 환경
+
 
 <div align=center>
   <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white">  
@@ -110,5 +114,8 @@
 📂store       - vuex store들을 정의합니다.
 
 ```
+
+
+
 
 
