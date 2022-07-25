@@ -13,6 +13,9 @@
     <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
     <img src="https://img.shields.io/badge/vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=white">       
   </div>
+
+  <br>
+
   <div align=center>    
     <img src="https://img.shields.io/badge/vue-2.6.14-green">
     <img src="https://img.shields.io/badge/vuetify-2.6.0-green">
@@ -27,13 +30,17 @@
   <br>
 
   <div align=center>    
-    <img src="https://img.shields.io/badge/vue-2.6.14-green">
+    <img src="https://img.shields.io/badge/vue.js-4FC08D?&logo=vue.js&logoColor=white">  
+    <img src="https://img.shields.io/badge/vue-2.6.14-green" />
     <p>
-     <strong>Vuetify 2.6.0</strong>의 원활한 사용을 위해 vue2 버전을 채택하였습니다.
+     프론트엔드 프레임워크 입니다. <strong>Vuetify 2.6.0</strong>의 원활한 사용을 위해 Vue 2.6.0 버전을 채택하였습니다.
     </p>
-    
-    
-
+    <br>
+    <img src="https://img.shields.io/badge/typescript-3178C6?&logo=typescript&logoColor=white">    
+    <p>
+     복잡한 주가 데이터를 원활히 다루고, 백엔드와의 원활한 소통을 위해, 타입을 정의하고 사용하기 용이한 Typescript를 채택하였습니다.
+    </p>
+          
   </div>
 </div>
 
