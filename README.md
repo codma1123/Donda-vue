@@ -115,7 +115,7 @@
     <img src="https://img.shields.io/badge/axios-0.26.1-green">           
   </div>
   
-  백엔드 서버와의 통신을 위한 HTTP 비동기 통신 라이브러리입니다.
+  HTTP 비동기 통신 라이브러리입니다. 백엔드 와의 데이터 통신을 위해 채택하였습니다. 관련 API 매핑은 하단의 API 항목에서 살펴보시기 바랍니다.
 
   
   
