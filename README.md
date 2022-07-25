@@ -33,7 +33,9 @@
   <br>
 
   <div align=center>    
-    <img src="https://img.shields.io/badge/vue.js-4FC08D?&logo=vue.js&logoColor=white">  
+    <a href="https://vuejs.org/">
+      <img src="https://img.shields.io/badge/vue.js-4FC08D?&logo=vue.js&logoColor=white">  
+    </a>
     <img src="https://img.shields.io/badge/vue-2.6.14-green" />
   </div>
 
