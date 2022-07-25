@@ -29,6 +29,7 @@
 </div>
 
 --- 
+
   <br>
 
   <div align=center>    
@@ -59,6 +60,19 @@
   **Vue.js** 의 **CSS** 프레임워크 입니다. **CSS** 요소를 간편하고 빠르게 만들기 위해 채택하였습니다.
   * **Vuetify**가 곧 3.0 버전 정식 릴리즈가 될 예정입니다. 릴리즈 내역에는 **Vue3.0** 이상 지원 내용이 포함됩니다.
   자세한 내용은 [해당 링크](https://vuetifyjs.com/en/introduction/roadmap/#in-development)를 참조하세요.
+
+  <br>
+
+  <div align=center>    
+    <img src="https://img.shields.io/badge/vuex-3.6.2-green">
+  </div>
+  
+  **Vue.js** 의 ***상태 관리 도구***입니다. 
+  * **vuex**가 곧 LTS 버전으로 들어갑니다. 따라서 **Vue.js** 에서 공식적으로 권하는 상태 관리 도구는 **vuex** 에서 *Mutation*을 제거하고, 새로운 기능을 추가한 [Pinia](https://pinia.vuejs.org/introduction.html#why-should-i-use-pinia)입니다. 
+  
+   > ***상태 관리 도구*** : 컴포넌트 간의 데이터 전달이 아닌, 중앙 데이터 저장소(store) 를 통해 데이터를 관리하는 도구를 의미합니다. </br>
+   > ***Mutation*** : vuex의 store의 state를 변경하는 동기적 함수들을 의미합니다.
+    
           
 
 
