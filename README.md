@@ -44,11 +44,9 @@
 
   <br>
 
-  <div align=center>    
-    <img src="https://img.shields.io/badge/typescript-3178C6?&logo=typescript&logoColor=white">    
-  </div>
+  <img src="https://img.shields.io/badge/typescript-3178C6?&logo=typescript&logoColor=white">    
 
-    복잡한 주가 데이터를 원활히 다루고, 백엔드와의 원활한 소통을 위해, 타입을 정의하고 사용하기 용이한 **Typescript**를 채택하였습니다.   
+  복잡한 주가 데이터를 원활히 다루고, 백엔드와의 원활한 소통을 위해, 타입을 정의하고 사용하기 용이한 **Typescript**를 채택하였습니다.   
 
   <br>
 
