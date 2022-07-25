@@ -1,14 +1,26 @@
-```bash
-📂assets      - 앱에 필요한 외부 파일을 담습니다.
-📂components  - 레이아웃에 그려질 컴포넌트들을 담습니다. 
-📂layout      - 페이지에 그려질 레이아웃을 담습니다.      
-📂mixins      - Vue의 mixins들을 담습니다.      
-📂models      - 각종 데이터 모델을 정의합니다.
-📂pages       - 페이지들을 담습니다.
-📂plugins     - Vue의 각종 plugins을 정의합니다.
-📂routes      - 라우트 설정을 정의합니다.
-📂store       - vuex store들을 정의합니다.
+# 🔁 돈다
 
+## 개발 환경
+
+<div align=center>
+  <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white">  
+  <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"> 
+  <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
+  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
+  <img src="https://img.shields.io/badge/vuetify-1867C0?style=for-the-badge&logo=vuetify&logoColor=white">       
+</div>
+
+
+<br><br/>
+ <!-- ![GitHub top language](https://img.shields.io/github/languages/top/codma1123/Donda-vue?style=plastic)
+
+ ![GitHub top language](https://img.shields.io/github/languages/second/codma1123/Donda-vue?style=plastic) -->
+
+ 
+
+
+
+```bash
 📦src
  ┣ 📂@types
  ┃ ┣ 📂chartjs-plugin-zoom
@@ -86,21 +98,17 @@
  ┣ 📜shims-tsx.d.ts
  ┣ 📜shims-vue.d.ts
  ┗ 📜shims-vuetify.d.ts
+
+📂assets      - 앱에 필요한 외부 파일을 담습니다.
+📂components  - 레이아웃에 그려질 컴포넌트들을 담습니다. 
+📂layout      - 페이지에 그려질 레이아웃을 담습니다.      
+📂mixins      - Vue의 mixins들을 담습니다.      
+📂models      - 각종 데이터 모델을 정의합니다.
+📂pages       - 페이지들을 담습니다.
+📂plugins     - Vue의 각종 plugins을 정의합니다.
+📂routes      - 라우트 설정을 정의합니다.
+📂store       - vuex store들을 정의합니다.
+
 ```
-#  구성요소
-
- Framework - Vue 2 (Class Component, Typescript, vuex, vuex-class)  
- CSS library - Vuetify (Vue 2)  
-
---- 
-Vuetify의 원활한 사용을 위해 Vue 2 사용.  
-
-API 데이터셋이 복잡하므로, TS 사용.  
-
-TS의 사용 용이성을 위해 컴포넌트와 Store를 Class 형식으로 작성.
-
-
-
-
 
 
