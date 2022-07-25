@@ -26,24 +26,37 @@
     <img src="https://img.shields.io/badge/chart.js-2.9.4-green">
     <img src="https://img.shields.io/badge/axios-0.26.1-green">           
   </div>
+</div>
 
   <br>
 
   <div align=center>    
     <img src="https://img.shields.io/badge/vue.js-4FC08D?&logo=vue.js&logoColor=white">  
     <img src="https://img.shields.io/badge/vue-2.6.14-green" />
-    <p>
-     프론트엔드 프레임워크 입니다. <strong>Vuetify 2.6.0</strong>의 원활한 사용을 위해 Vue 2.6.0 버전을 채택하였습니다.
-    </p>
-    <br>
-    <img src="https://img.shields.io/badge/typescript-3178C6?&logo=typescript&logoColor=white">    
-    <p>
-     복잡한 주가 데이터를 원활히 다루고, 백엔드와의 원활한 소통을 위해, 타입을 정의하고 사용하기 용이한 Typescript를 채택하였습니다.
-    </p>
-          
   </div>
-</div>
 
+  프론트엔드 프레임워크 입니다. **Vuetify 2.6.0** 의 원활한 사용을 위해 Vue 2.6.0 버전을 채택하였습니다. 
+  <u> **Vuetify**가 곧 3.0 버전 정식 릴리즈가 될 예정입니다. 릴리즈 내역에는 **Vue3.0** 이상 지원 내용이 포함되므로, **Vue 3.0** 으로 마이그레이션을 고려중입니다 다음 링크를 참조하세요.</u>
+  > https://vuetifyjs.com/en/introduction/roadmap/#in-development
+
+  <br>
+
+  <div align=center>    
+    <img src="https://img.shields.io/badge/typescript-3178C6?&logo=typescript&logoColor=white">    
+  </div>
+
+  복잡한 주가 데이터를 원활히 다루고, 백엔드와의 원활한 소통을 위해, 타입을 정의하고 사용하기 용이한 **Typescript**를 채택하였습니다.   
+
+  <br>
+
+  <div align=center>
+    <img src="https://img.shields.io/badge/vuetify-1867C0?&logo=vuetify&logoColor=white">    
+    <img src="https://img.shields.io/badge/vuetify-2.6.0-green">
+  </div>
+
+  **Vue.js** 의 **CSS** 프레임워크 입니다. **CSS** 요소를 간편하고 빠르게 만들기 위해 채택하였습니다.
+  <u> **Vuetify**가 곧 3.0 버전 정식 릴리즈가 될 예정입니다. 릴리즈 내역에는 **Vue3.0** 이상 지원 내용이 포함됩니다.</u>
+          
 
 
 
