@@ -260,6 +260,7 @@
 > ***state*** : 접근이 허용된 컴포넌트에서 공통적으로 사용 가능한 store의 변수들을 의미합니다. <br>
 
 <br>
+
 **updateState** Mutation은 다음과 같이 정의되어 있습니다.
 
 ```js
@@ -288,6 +289,7 @@ export interface IUpdateStateModel {
 > ***stockLoaded*** : 종목 하나의 정보를 가져오는 중임을 의미하는 로딩 변수입니다. true면 종목을 정보를 로딩하는중, false면 정보를 로딩 완료했다는 뜻입니다. 이 state는 로딩 화면을 시각화 할때 사용됩니다.
 
 <br>
+
 ```js
   const res = await axios.get(`/stock/${name}`, HEADER)
 ```
