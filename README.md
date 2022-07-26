@@ -259,6 +259,7 @@
 > ***Mutation*** : vuex의 store의 *state*를 변경하는 동기적 함수들을 의미합니다. </br>
 > ***state*** : 접근이 허용된 컴포넌트에서 공통적으로 사용 가능한 store의 변수들을 의미합니다. <br>
 
+<br>
 **updateState** Mutation은 다음과 같이 정의되어 있습니다.
 
 ```js
@@ -278,20 +279,22 @@ export interface IUpdateStateModel {
 ```
 로 정의되어있는 타입입니다. <br>
 
-따라서, 
 ```js
   this.context.commit('updateState', {
     stockLoaded: true
   })
 ```
-해당 구문은 ***stockLoaded*** 라는 **state**값을 **true**로 변경한다는 의미가 됩니다.
+따라서, 해당 구문은 ***stockLoaded*** 라는 **state**값을 **true**로 변경한다는 의미가 됩니다.
 > ***stockLoaded*** : 종목 하나의 정보를 가져오는 중임을 의미하는 로딩 변수입니다. true면 종목을 정보를 로딩하는중, false면 정보를 로딩 완료했다는 뜻입니다. 이 state는 로딩 화면을 시각화 할때 사용됩니다.
 
+<br>
 ```js
   const res = await axios.get(`/stock/${name}`, HEADER)
 ```
 로딩 변수를 true로 변경한 후, axios get 요청을 실행합니다. axios의 get 함수에서 첫번째 인자는 요청할 url을 의미합니다. 두번째 인자는 http 헤더를 의미합니다.
-> **돈다** 에서 사용되는 전체 API 요청은 [해당 링크](https://github.com/cd-hk-money/stock-server)에서 확인하실 수 있습니다. <br>
+> **돈다** 에서 사용되는 전체 API 요청은 [해당 링크](https://github.com/cd-hk-money/stock-server)에서 확인하실 수 있습니다. 
+
+<br>
 
 ```js
   this.context.commit('updateState', {
