@@ -309,11 +309,12 @@
 
 <div align=center>
 
+  ![readme-chart3](https://user-images.githubusercontent.com/82079706/181083053-9960d3be-ceb4-4388-bd55-abd1f30d8206.png)
+  
   ![readme-chart1](https://user-images.githubusercontent.com/82079706/181082442-32fbc64f-197a-4d5c-a053-5f707a929a72.png)
 
   ![readme-chart2](https://user-images.githubusercontent.com/82079706/181082802-7a15d6bf-28bf-4fc0-9430-7ff2bf37ab44.png)
 
-  ![readme-chart3](https://user-images.githubusercontent.com/82079706/181083053-9960d3be-ceb4-4388-bd55-abd1f30d8206.png)
 
 </div>
 
