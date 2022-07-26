@@ -219,6 +219,8 @@
  ┣ 📂rank      - 랭크 페이지에 필요한 컴포넌트들을 담고 있습니다.
 
 ```
+## 컴포넌트
+
 ## API
 
 **돈다** 웹 뷰에서 API 요청은 **📦src/📂store** 에서 **Vuex**의 **@Action** 데코레이터로써 정의됩니다. <br>
@@ -302,6 +304,19 @@
 
 ### 결과적으로 **stock** 이라는 종목 정보들을 담는 **state** 에 axios 요청으로 받은 응답 객체의 **data** 값이 들어가게 됩니다.
 
-## 컴포넌트
 
 ## 차트
+
+<div align=center>
+
+  ![readme-chart1](https://user-images.githubusercontent.com/82079706/181082442-32fbc64f-197a-4d5c-a053-5f707a929a72.png)
+
+  ![readme-chart2](https://user-images.githubusercontent.com/82079706/181082802-7a15d6bf-28bf-4fc0-9430-7ff2bf37ab44.png)
+
+  ![readme-chart3](https://user-images.githubusercontent.com/82079706/181083053-9960d3be-ceb4-4388-bd55-abd1f30d8206.png)
+
+</div>
+
+차트는 **돈다** 에서 가장 중요한 요소 중 하나입니다.
+
+
