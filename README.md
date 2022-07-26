@@ -69,12 +69,12 @@
     <img src="https://img.shields.io/badge/vuex-3.6.2-green">
   </div>
   
-  **Vue.js** 의 ***상태 관리 도구*** 라이브러리 입니다.
-  * **vuex**가 곧 LTS 버전으로 들어갑니다. 따라서 **Vue.js** 에서 공식적으로 권하는 상태 관리 도구는 **vuex** 에서 *Mutation*을 제거하고, 새로운 기능을 추가한 [Pinia](https://pinia.vuejs.org/introduction.html#why-should-i-use-pinia)입니다. 
+  **Vue.js** 의 ***상태 관리 도구**** 라이브러리 입니다.
+  * **vuex**가 곧 LTS 버전으로 들어갑니다. 따라서 **Vue.js** 에서 공식적으로 권하는 상태 관리 도구는 **vuex** 에서 *Mutation** 을 제거하고, 새로운 기능을 추가한 [Pinia](https://pinia.vuejs.org/introduction.html#why-should-i-use-pinia)입니다. 
   
-   > ***상태 관리 도구*** : 컴포넌트 간의 데이터 전달이 아닌, 중앙 데이터 저장소(store) 를 통해 데이터를 관리하는 도구를 의미합니다. </br>
-   > ***Mutation*** : vuex의 store의 state를 변경하는 동기적 함수들을 의미합니다. </br>
-   > ***state*** : 접근이 허용된 컴포넌트에서 공통적으로 사용 가능한 store의 변수들을 의미합니다.
+   > ***상태 관리 도구**** : 컴포넌트 간의 데이터 전달이 아닌, 중앙 데이터 저장소(store) 를 통해 데이터를 관리하는 도구를 의미합니다. </br>
+   > ***Mutation**** : vuex의 store의 *state** 를 변경하는 동기적 함수들을 의미합니다. </br>
+   > ***state**** : 접근이 허용된 컴포넌트에서 공통적으로 사용 가능한 store의 변수들을 의미합니다.
 
   <br>
 
@@ -219,7 +219,6 @@
  ┣ 📂rank      - 랭크 페이지에 필요한 컴포넌트들을 담고 있습니다.
 
 ```
-
 ## API
 
 **돈다** 웹 뷰에서 API 요청은 **📦src/📂store** 에서 **Vuex**의 **@Action** 데코레이터로써 정의됩니다. <br>
@@ -252,16 +251,15 @@
   })
 ```
 
-먼저, *context* 객체의 *commit* 함수를 호출합니다. 첫번째 인자로는 Mutation 이름, 두번째 인자는 첫번째 인자에 명시된 Mutation 의 인자로써 사용됩니다. 여기서는 **updateState**의 인자로써 **{ stockLoaded: true }** 를 보내어 호출합니다. <br>
+먼저, *context** 객체의 *commit** 함수를 호출합니다. 첫번째 인자로는 *Mutation** 이름, 두번째 인자는 첫번째 인자에 명시된 Mutation 의 인자로써 사용됩니다. 여기서는 **updateState**의 인자로써 **{ stockLoaded: true }** 를 보내어 호출합니다. <br>
 
-> ***context*** : 현재 store의 메소드와 객체들을 가지고 있는 객체입니다.<br>
-> ***commit*** : 현재 store의 *Mutation* 을 호출합니다. </br>
-> ***Mutation*** : vuex의 store의 *state*를 변경하는 동기적 함수들을 의미합니다. </br>
-> ***state*** : 접근이 허용된 컴포넌트에서 공통적으로 사용 가능한 store의 변수들을 의미합니다. <br>
+> ***context**** : 현재 store의 메소드와 객체들을 가지고 있는 객체입니다.<br>
+> ***commit**** : 현재 store의 *Mutation* 을 호출합니다. </br>
+> ***Mutation**** : vuex의 store의 *state** 를 변경하는 동기적 함수들을 의미합니다. </br>
+> ***state**** : 접근이 허용된 컴포넌트에서 공통적으로 사용 가능한 store의 변수들을 의미합니다. <br>
 
 <br>
 
-**updateState** Mutation은 다음과 같이 정의되어 있습니다.
 
 ```js
   @Mutation
@@ -271,22 +269,17 @@
     })        
   }
 ```
-인자로받은 payload의 **key**값에 해당하는 **state**를 **value**값으로 대체합니다.
-여기서 **IUpdateStateModel** 타입은 
-```ts
-export interface IUpdateStateModel {  
-  [state: string]: any
-}
-```
-로 정의되어있는 타입입니다. <br>
+**updateState** Mutation은 다음과 같이 정의되어 있습니다. 인자로받은 payload의 **key**값에 해당하는 **state**를 **value**값으로 대체합니다.
+
+<br>
 
 ```js
   this.context.commit('updateState', {
     stockLoaded: true
   })
 ```
-따라서, 해당 구문은 ***stockLoaded*** 라는 **state**값을 **true**로 변경한다는 의미가 됩니다.
-> ***stockLoaded*** : 종목 하나의 정보를 가져오는 중임을 의미하는 로딩 변수입니다. true면 종목을 정보를 로딩하는중, false면 정보를 로딩 완료했다는 뜻입니다. 이 state는 로딩 화면을 시각화 할때 사용됩니다.
+따라서, 해당 구문은 ***stockLoaded**** 라는 **state**값을 **true**로 변경한다는 의미가 됩니다.
+> ***stockLoaded**** : 종목 하나의 정보를 가져오는 중임을 의미하는 로딩 변수입니다. true면 종목을 정보를 로딩하는중, false면 정보를 로딩 완료했다는 뜻입니다. 이 state는 로딩 화면을 시각화 할때 사용됩니다.
 
 <br>
 
@@ -309,20 +302,6 @@ export interface IUpdateStateModel {
 
 ### 결과적으로 **stock** 이라는 종목 정보들을 담는 **state** 에 axios 요청으로 받은 응답 객체의 **data** 값이 들어가게 됩니다.
 
+## 컴포넌트
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 차트
