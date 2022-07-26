@@ -117,24 +117,14 @@
   
   HTTP 비동기 통신 라이브러리입니다. 백엔드 와의 데이터 통신을 위해 채택하였습니다. 관련 API 매핑은 하단의 API 항목에서 살펴보시기 바랍니다.
 
+  --- 
+
+##  폴더 구조
   
-  
-
-  
-
-          
-
-
-
-<br><br/>
  <!-- ![GitHub top language](https://img.shields.io/github/languages/top/codma1123/Donda-vue?style=plastic)
 
- ![GitHub top language](https://img.shields.io/github/languages/second/codma1123/Donda-vue?style=plastic) -->
-
- 
-
-
-
+ <!-- ![GitHub top language](https://img.shields.io/github/languages/second/codma1123/Donda-vue?style=plastic) -->
+  
 ```bash
 📦src
  ┣ 📂@types
@@ -214,15 +204,20 @@
  ┣ 📜shims-vue.d.ts
  ┗ 📜shims-vuetify.d.ts
 
-📂assets      - 앱에 필요한 외부 파일을 담습니다.
-📂components  - 레이아웃에 그려질 컴포넌트들을 담습니다. 
-📂layout      - 페이지에 그려질 레이아웃을 담습니다.      
-📂mixins      - Vue의 mixins들을 담습니다.      
+📂@types      - ts로 재정의한 npm 라이브러리를 담고 있습니다.
+📂assets      - 외부 파일을 담습니다.
+📂components  - 페이지에 그려질 컴포넌트들을 담고 있습니다. 
+📂mixins      - Vue의 mixins과 각종 유틸 함수들을 담고 있습니다.      
 📂models      - 각종 데이터 모델을 정의합니다.
-📂pages       - 페이지들을 담습니다.
+📂pages       - 페이지를 담고 있습니다.
 📂plugins     - Vue의 각종 plugins을 정의합니다.
 📂routes      - 라우트 설정을 정의합니다.
 📂store       - vuex store들을 정의합니다.
+
+📂components
+┣ 📂detail    - 디테일 페이지에 필요한 컴포넌트들을 담고 있습니다.
+┣ 📂home      - 홈 페이지에 필요한 컴포넌트들을 담고 있습니다.
+┣ 📂rank      - 랭크 페이지에 필요한 컴포넌트들을 담고 있습니다.
 
 ```
 
