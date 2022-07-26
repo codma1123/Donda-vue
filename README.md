@@ -305,14 +305,9 @@ export interface IUpdateStateModel {
   })
 ```
 
-그 후, 다시 *context* 객체의 *commit* 함수를 호출합니다. 호출할 Mutation은 updateState, Muataion의 인자로써는 
-```js
-  {
-    stock: res.data,
-    stockLoaded: false
-  } 
-```
-를 넣습니다. 결과적으로 **stock** 이라는 종목 정보들을 담는 **state** 에 axios 요청으로 받은 응답 객체의 **data** 값이 들어가게 됩니다.
+그 후, 다시 *context* 객체의 *commit* 함수를 호출합니다. 호출할 Mutation은 updateState입니다.
+
+### 결과적으로 **stock** 이라는 종목 정보들을 담는 **state** 에 axios 요청으로 받은 응답 객체의 **data** 값이 들어가게 됩니다.
 
 
 
