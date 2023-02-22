@@ -9,10 +9,8 @@ export const HEADER: AxiosRequestConfig = {
 }
 
 const API = process.env.VUE_APP_STOCK_API
-console.log(process.env)
 
 export const createAxiosGetRequestCallback = <T extends ResponseType>(url: string) => async () => await axios.get<T>(url, HEADER)
-
 
 
 /**
