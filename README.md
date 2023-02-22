@@ -6,7 +6,7 @@
 <br/>
 <br/>
 <br/>
-<div style="font-size:500%" align=center>
+<div style="font-size:80px" align=center>
   🛠 Skills 
 </div>
 
@@ -38,7 +38,7 @@
 <br/>
 <br/>
 <br/>
-<div style="font-size:500%" align=center>
+<div style="font-size:80px" align=center>
   🗂 Structure 
 </div>
   
@@ -178,14 +178,14 @@
 <br/>
 <br/>
 <br/>
-<div style="font-size:500%" align=center>
+<div style="font-size:80px" align=center>
    ✨Features
 </div>
 <br/>
 <br/>
 <br/>
 
-<div style="font-size:200%">
+<div style="font-size:40px">
   # CLASS COMPONENT
 </div>
 <br/>
@@ -222,7 +222,7 @@ export default class Stock extends mixins(StockStoreMixin, DiviceMixin) {
 
 
 
-<div style="font-size:200%">
+<div style="font-size:40px">
   # API REQUEST
 </div>
 <br/>
@@ -267,7 +267,7 @@ public async callRequest(payload: AsyncPayload): Promise<void> {
 <br/>
 <br/>
 
-<span style="font-size:180%">
+<span style="font-size:30px">
   1. Loading
 </span>
 <br/>
@@ -302,7 +302,7 @@ export const initialState = <T>(initial?: T): StoreState<T> => ({
 <br/>
 <br/>
 
-<span style="font-size:180%">
+<span style="font-size:30px">
   2. Success
 </span>
 <br/>
@@ -330,7 +330,7 @@ public success({ state, data }: {state: string, data: unknown}) {
 <br/>
 <br/>
 
-<span style="font-size:180%">
+<span style="font-size:30px">
   3. Error
 </span>
 <br/>
@@ -358,7 +358,7 @@ public error({ state, error }: {state: string, error: unknown}) {
 <br/>
 
 
-<div style="font-size:200%">
+<div style="font-size:40px">
   # Chart
 </div>
 <br/>
