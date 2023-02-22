@@ -187,7 +187,40 @@
 
 <div style="font-size:200%">
   # CLASS COMPONENT
-</div
+</div>
+<br/>
+
+**돈다** 의 ***Vue.js***는 ***Class Component*** 방식으로 작성되었습니다.  <br/><br/>
+
+
+**📦src/v2/📂components/📂detail/📂stock/📜Stock.vue**
+```js
+@Component({
+  components: {
+    StockBigChart,
+  }
+})
+export default class Stock extends mixins(StockStoreMixin, DiviceMixin) { 
+  ...
+}
+```
+
+***Class Component***로 작성한 이유는 다음과 같습니다.
+> *vuetify*를 사용하기 용이하기위해 *vue2*버전을 사용했습니다.
+
+> *vue2*버전에서 *Typescript* 사용이 용이합니다. <br/>
+
+> 미리 작성한 클래스 설계도를 따라가기 용이합니다. <br/>
+
+<br/>
+
+하지만, *vuetify*가 3버전에 들어섬에 따라, *vue3*버전또한 *vuetify*에 호환이 되기 때문에,  *vue3* *vuetify3*을 기반으로한 ***composition API***방식으로 작성하고, 모바일 기준으로 레이아웃이 개편된[donda-3](https://github.com/codma1123/DONDA-Vue3)를 선보일 예정입니다.
+
+
+<br/>
+<br/>
+
+
 
 <div style="font-size:200%">
   # API REQUEST
@@ -195,7 +228,7 @@
 <br/>
 
 
-**돈다** 웹 뷰에서 API 요청은 Vuex 스토어를 통해 이루어집니다. <br/>
+**돈다** 에서 API 요청은 Vuex 스토어를 통해 이루어집니다. <br/>
 *payload*를 통해 request를 요청하고 *state*를 설정하는 과정을 살펴봅시다.
 <br />
 <br />
@@ -354,6 +387,9 @@ export default class StockIndicatorChart extends StockStoreMixin {
   //...
 }
 ```
+<br/>
+
+
 
 
 
