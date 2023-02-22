@@ -90,8 +90,6 @@ export default class StockScore extends StockStoreMixin {
     return this.$vuetify.breakpoint.name === 'xs'
   }
 
-
-
   get cardHeight (): number { 
     return this.$vuetify.breakpoint.name === 'xs' ? 260 : 260 
   }  

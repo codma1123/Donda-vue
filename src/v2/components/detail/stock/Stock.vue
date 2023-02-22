@@ -12,7 +12,7 @@
         plain
         @click="volumeEnable = !volumeEnable"
         v-model="volumeEnable"
-        active-class="chip-active"
+        active-class="chip-active" 
       >
         <v-icon left>mdi-chart-bar</v-icon>
         거래량 표시
