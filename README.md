@@ -1,6 +1,6 @@
 
 <div align=center>
-  <img src="./img/title.PNG">
+  <img src="./img/title.png">
 </div>
 
 <br/>
@@ -355,15 +355,15 @@ public error({ state, error }: {state: string, error: unknown}) {
 **돈다** 에서 주가관련 데이터의 차트들은 ***chart.js*** 라이브러리를 통해 구현됩니다.
 
 <div align=center>
-  <img src="./img/home.PNG">
+  <img src="./img/home.png">
 </div>
 <br/>
 <div align=center>
-  <img src="./img/search.PNG">
+  <img src="./img/search.png">
 </div>
 <br/>
 <div align=center>
-  <img src="./img/indicator.PNG">
+  <img src="./img/indicator.png">
 </div>
 <br/>
 
