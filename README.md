@@ -6,9 +6,8 @@
 <br/>
 <br/>
 <br/>
-<div style="font-size:80px" align=center>
-  🛠 Skills 
-</div>
+
+# 🛠 Skills 
 
 
 <div>
@@ -38,9 +37,8 @@
 <br/>
 <br/>
 <br/>
-<div style="font-size:80px" align=center>
-  🗂 Structure 
-</div>
+
+# 🗂 Structure 
   
  <!-- ![GitHub top language](https://img.shields.io/github/languages/top/codma1123/Donda-vue?style=plastic)
 
@@ -178,16 +176,11 @@
 <br/>
 <br/>
 <br/>
-<div style="font-size:80px" align=center>
-   ✨Features
-</div>
-<br/>
-<br/>
+
+  # ✨Features
 <br/>
 
-<div style="font-size:40px">
-  # CLASS COMPONENT
-</div>
+  ## *CLASS COMPONENT*
 <br/>
 
 **돈다** 의 ***Vue.js***는 ***Class Component*** 방식으로 작성되었습니다.  <br/><br/>
@@ -222,9 +215,7 @@ export default class Stock extends mixins(StockStoreMixin, DiviceMixin) {
 
 
 
-<div style="font-size:40px">
-  # API REQUEST
-</div>
+## *API REQUEST*
 <br/>
 
 
@@ -358,9 +349,7 @@ public error({ state, error }: {state: string, error: unknown}) {
 <br/>
 
 
-<div style="font-size:40px">
   # Chart
-</div>
 <br/>
 
 **돈다** 에서 주가관련 데이터의 차트들은 ***chart.js*** 라이브러리를 통해 구현됩니다.

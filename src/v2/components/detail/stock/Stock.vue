@@ -85,6 +85,7 @@ import DiviceMixin from "@/mixins/DiviceMixin.vue";
   },
 })
 export default class Stock extends mixins(StockStoreMixin, DiviceMixin) {
+  
   count = 33;
   dateOverlay = false;
   gradientEnable = false;
