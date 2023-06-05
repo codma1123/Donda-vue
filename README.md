@@ -377,6 +377,9 @@ export default class StockIndicatorChart extends StockStoreMixin {
 }
 ```
 <br/>
+Chart 컴포넌트 역시 Class를 통해 구현됬으며, vue-chart 라이브러리를 사용했습니다. 
+<br/>
+또한, 커스텀 플러그인을 사용하여 차트 십자선과 호버 시 수직 수평 라벨과 같은 기능을 구현했습니다.
 
 
 
